@@ -16,7 +16,7 @@ function C1()
 
         if (yearDiff<0)
         {
-            setAge("Invalid Date");
+            setAge("Please enter a proper date");
         }else if(monthDiff>0 || (monthDiff === 0 && dateDiff>=0))
         {
             setAge("You are " + yearDiff + " years old");
