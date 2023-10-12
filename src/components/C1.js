@@ -20,12 +20,12 @@ function C1()
         }else if(monthDiff>0 || (monthDiff === 0 && dateDiff>=0))
         {
             setAge("You are " + yearDiff + " years old");
-        }else if(monthDiff<0)
+        }else if(monthDiff<0 && yearDiff!=0)
         {
             setAge("You are " + (yearDiff-1) + " years old");
         }else
         {
-            setAge("Please enter a date");
+            setAge("Please enter a proper date");
         }
     };
     
